@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1251
+
+Keeps a log of used (wasted) time. The script will trigger every hour whereupon the script will beep and you'll enter a description of what you'll be doing during the next hour.
+
+Keys:
+<Leader>E to insert a new hour entry
+<Leader>D to insert a new date entry
+
+Commands:
+Autojournal on | off for setting off and on the autojournalling feature
+
+The script will uninstall (remove itself from memory) after the current journal is closed.
